@@ -1,8 +1,3 @@
-
-for i in range(1500,2701):
-    if i % 5 ==0 and i % 7 ==0 :
-        print(i)
-
 one=int(input("please enter first number"))
 two=int(input("please enter second number"))
 oper=input("please enter A for addition S for substraction M for multiplication D for division and X for exit").casefold()
