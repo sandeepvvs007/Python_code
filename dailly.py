@@ -1,5 +1,5 @@
-one=int(input("please enter first number"))
-two=int(input("please enter second number"))
+one=float(input("please enter first number"))
+two=float(input("please enter second number"))
 oper=input("please enter A for addition S for substraction M for multiplication D for division and X for exit").casefold()
 while oper != "e" :
     if oper =="a":
@@ -12,6 +12,6 @@ while oper != "e" :
         print("division result is {}".format(one/two))
     else:
         print("please enter a valid input")
-    one=int(input("please enter first number"))
-    two=int(input("please enter second number"))
+    one=float(input("please enter first number"))
+    two=float(input("please enter second number"))
     oper=input("please enter A for addition S for substraction M for multiplication D for division and X for exit").casefold()
