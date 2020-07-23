@@ -1,0 +1,10 @@
+senten=" "
+while senten!="exit" :
+
+    senten= str(input("enter any string"))
+    letter= input("enter the letter")
+    count=0
+    for i in range(0,len(senten),1) :
+       if letter == senten[i]:
+           count+=1
+    print(count)
